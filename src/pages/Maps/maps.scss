@@ -1,0 +1,25 @@
+
+@import '../../../public/assets/sass/_mixins';
+
+.maps-page {
+  .p-inputtext {
+    width: 100%;
+  }
+
+
+  .p-orderlist {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+}
+
+.maps-table, .stages-table, {
+  @include table-style();
+}
+
+
+.map-details, .stage-details {
+  @include details-card();
+}

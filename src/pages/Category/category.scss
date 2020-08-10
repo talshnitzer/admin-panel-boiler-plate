@@ -1,0 +1,9 @@
+@import '../../../public/assets/sass/_mixins';
+
+.categories-page {
+  @include details-card();
+}
+
+.categories-table {
+  @include table-style();
+}

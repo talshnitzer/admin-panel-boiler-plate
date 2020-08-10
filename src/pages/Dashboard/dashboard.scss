@@ -1,0 +1,44 @@
+@import '../../../public/assets/sass/_mixins';
+
+
+@mixin circle-icon($color){
+    position: relative;
+    font-size: 32px;
+    left: 50%;
+    top: 20%;
+    width: 36px;
+    height: 36px;
+    margin-left: -20px;
+    color: $color;
+    text-align: center;
+}
+
+@mixin circle-text($color){
+    width: 79px;
+    height: 50px;
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+    top: 40%;
+    left: 50%;
+    margin-left: -35px;
+    color: $color;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.doughnut-chart {
+    i {
+        @include circle-icon(#6ebc3b);
+    }
+    span {
+        @include circle-text(#6ebc3b)
+    }
+}
+
+.in-chart {
+    position: absolute;
+    font-size: 30px;
+    left: 24%;
+    top: 49%;
+}

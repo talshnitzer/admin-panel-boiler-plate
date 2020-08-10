@@ -1,0 +1,5 @@
+
+@import '../../../public/assets/sass/_mixins';
+.user-details {
+  @include details-card();
+}

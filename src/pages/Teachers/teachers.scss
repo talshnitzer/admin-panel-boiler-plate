@@ -1,0 +1,5 @@
+@import '../../../public/assets/sass/_mixins';
+
+.teacher-details {
+  @include details-card();
+}

@@ -1,0 +1,19 @@
+.topbar-progress {
+  position: relative;
+  float: right;
+  display: flex;
+  width: 25%;
+  height: 100%;
+  align-items: center;
+  top: -5px;
+
+  .title {
+    vertical-align: middle;
+    margin-right: 8px;
+    color: #ffffff;
+    top: 5px;
+    position: relative;
+    font-weight: 700;
+    font-size:12px;
+  }
+}
